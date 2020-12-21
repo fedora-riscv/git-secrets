@@ -1,11 +1,11 @@
 Name:           git-secrets
 Version:        1.3.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Prevents committing secrets and credentials into git repos
 
 License:        ASL 2.0
 URL:            https://github.com/awslabs/%{name}/
-Source0:        https://github.com/awslabs/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:        %{URL}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
@@ -47,6 +47,10 @@ make test
 
 
 %changelog
+* Mon Dec 21 10:00:15 CET 2020 K. de Jong <keesdejong@fedoraproject.org> - 1.3.0-3
+- Updated spec file
+- Added make build requirement
+
 * Mon Jul 27 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.3.0-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
 
