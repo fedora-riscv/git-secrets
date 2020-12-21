@@ -11,7 +11,7 @@ BuildArch:      noarch
 
 BuildRequires:  bash
 BuildRequires:  git-core
-BuildRequires: make
+BuildRequires:  make
 
 Requires:       git-core
 
