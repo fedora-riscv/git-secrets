@@ -1,6 +1,6 @@
 Name:           git-secrets
 Version:        1.3.0
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Prevents committing secrets and credentials into git repos
 
 License:        ASL 2.0
@@ -47,6 +47,9 @@ make test
 
 
 %changelog
+* Thu Jul 21 2022 Fedora Release Engineering <releng@fedoraproject.org> - 1.3.0-7
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
+
 * Thu Jan 20 2022 Fedora Release Engineering <releng@fedoraproject.org> - 1.3.0-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
 
